@@ -13,7 +13,6 @@ while line:
     linecal = line
     if(linecal == "\n"):
         elfcal.append(cals)
-        print (elfcal)
         print(f"at run {elf} we are  with {cals} and current max {maxelf} had {maxcals}" )
         if (cals > maxcals):
             maxcals = cals
